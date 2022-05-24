@@ -187,7 +187,7 @@ function MiniDrawer() {
           </IconButton>
 
           <input className="searchbar" placeholder="search for..."></input>
-          <Button variant="contained">
+          <Button variant="contained" sx={{height:"40px",borderTopLeftRadius:"1px",borderBottomLeftRadius:"1px"}}>
             <IconButton color="primary" aria-label="searchbar ">
               <SavedSearchIcon sx={{ color: "white" }} />
             </IconButton>
